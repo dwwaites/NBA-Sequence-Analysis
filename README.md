@@ -240,7 +240,7 @@ install.packages("tidyverse")
 Run the project from the repository root:
 
 ```r
-source("nba_sequence_analysis_clean.R")
+source("nba_sequence_analysis.r")
 ```
 
 On the first run, the script creates `data/`, downloads the play-by-play RDS,
@@ -253,7 +253,7 @@ columns, or does not produce the expected 1,230-game regular-season sample.
 ```text
 nba-sss-sts-analysis/
 ├── README.md
-├── nba_sequence_analysis_clean.R
+├── nba_sequence_analysis.r
 ├── figures/
 │   ├── okc_sequence_scatter.png
 │   ├── win_probability_curve.png
