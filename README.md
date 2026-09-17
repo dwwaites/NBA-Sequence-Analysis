@@ -253,7 +253,7 @@ validates it, and caches it locally. Subsequent runs reuse that file. The script
 stops with a clear error if the download is empty, unreadable, missing required
 columns, or does not produce the expected 1,230-game regular-season sample.
 
-## Planned repository structure
+## Repository structure
 
 ```text
 nba-sss-sts-analysis/
