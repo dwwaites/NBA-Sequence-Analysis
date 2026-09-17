@@ -212,16 +212,21 @@ because removing blowouts deliberately narrows the range of point differentials.
 
 ## Visualizations
 
-The R script creates four final plot objects:
+### League sequence differential
 
-- `okc_sequence_plot`: OKC sequence differential versus point differential;
-- `win_probability_plot`: modeled win probability with a 95% confidence band;
-- `team_sequence_differential_plot`: league-wide sequence-differential rankings;
-  and
-- `team_suppression_plot`: league-wide defensive-suppression rankings.
+![NBA team sequence differential](figures/team_sequence_differential.png)
 
-The figures can be exported and embedded here after the final repository
-structure is created.
+### Defensive sequence suppression
+
+![NBA defensive sequence suppression](figures/team_suppression_rankings.png)
+
+### Sequence differential and win probability
+
+![Sequence differential and win probability](figures/win_probability_curve.png)
+
+### Oklahoma City game-level relationship
+
+![OKC sequence differential and point differential](figures/okc_sequence_scatter.png)
 
 ## Reproducing the analysis
 
