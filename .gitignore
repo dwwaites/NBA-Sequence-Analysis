@@ -1,0 +1,15 @@
+# Raw data downloaded automatically
+data/
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Generated plot file
+Rplots.pdf
+
+# Operating-system files
+.DS_Store
+Thumbs.db
